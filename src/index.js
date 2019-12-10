@@ -54,7 +54,9 @@ controls.update();
 
 var loader = new THREE.GLTFLoader();
 
-loader.load( 'Import_obj_file/3d-model/Datsun/scene.gltf', function ( gltf ) 
+// loader.load( 'Import_obj_file/3d-model/Datsun/scene.gltf', function ( gltf ) 
+
+loader.load( 'https://drive.google.com/open?id=1HqdXRX694396Extla25MgJtPyFv9teLn', function ( gltf ) 
 	{
 		car = gltf.scene.children[0];
 		car.scale.set(0.5,0.5,0.5);
