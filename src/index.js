@@ -59,7 +59,7 @@ loader.load( 'Import_obj_file/3d-model/Tesla/scene.gltf', function ( gltf )
 // loader.load( 'https://drive.google.com/open?id=1HqdXRX694396Extla25MgJtPyFv9teLn', function ( gltf ) 
 	    {
 		car = gltf.scene.children[0];
-		car.scale.set(0.5,0.5,0.5);
+		car.scale.set(2.5,2.5,2.5);
 		scene.add( gltf.scene );
 		renderer.render( scene, camera );
 	}, undefined, function ( error ) {
